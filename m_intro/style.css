@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("/images/station.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+#count-el {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
