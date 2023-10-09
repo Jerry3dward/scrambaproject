@@ -19,3 +19,36 @@ h2 {
     margin-top: 50px;
     font-size: 50px;
 }
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#save-btn {
+    background: darkred;
+}
+#inc-btn {
+    background: darkred;
+}
+.btn-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+#save-ent {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 250px;
+    font-size: 50px;
+}
+
