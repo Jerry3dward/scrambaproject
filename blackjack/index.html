@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="js.js" async defer></script>
+        <h1>BlackJack</h1>
+        <p style="margin-bottom: 20px;">Rules :</p>
+        <p class="rules">
+            Your goal is to draw cards that total 21, or come closer to 21 than the dealer without going over. each player start with two cards. if sum of your cards is less than 21 and you want to close deal the player with highest cards win if you get sum of 21 that jackpot.</p>
+        <p class="msg-el">Want to play a round ?</p>
+        <p class="card-el">Cards drawn: </p>
+        <p id="sum-el">Sum: </p>
+        <button class="btn-start" onclick="startgame()">Start Game</button>
+        <button class="btn-new" onclick="newcard()">Draw New Card ?</button>
+        <p id="player-n"></p>
+    </body>
+</html>
