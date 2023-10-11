@@ -19,6 +19,18 @@ button {
     color: white;
     font-weight: bold;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid green;
     margin-top: 10px;
+}
+#del-btn {
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+}
+li {
+    margin-top: 2px;
+}
+
+a {
+    color: #5f9341;
 }
