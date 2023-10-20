@@ -28,9 +28,12 @@ button {
     color: green;
 }
 li {
-    margin-top: 2px;
+    margin-top: 3px;
 }
 
 a {
     color: #5f9341;
+}
+.buttons {
+    margin-bottom: 20px;
 }

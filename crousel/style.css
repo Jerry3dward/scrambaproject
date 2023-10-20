@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+.crousel {
+    position: relative;
+    max-width: 600px;
+}
+.crousel .crousel-item,
+.crousel .crousel-item-hidden {
+    display: none;
+}
+.crousel .crousel-item-visible {
+    display: block;
+    animation: fade 1s; 
+}
+.crousel .crousel-item img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.crousel .crousel-action {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+}
+.crousel .crousel-action button {
+    border-radius: 50%;
+    background-color: aliceblue;
+    cursor: pointer;
+    border: 0;
+    font-size: 30px;
+    width: 90px;
+    height: 70px;
+    margin: 0 20px;
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
