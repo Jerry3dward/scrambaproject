@@ -7,7 +7,7 @@ let direction = 1;
 const width = 10;
 let appleindex = 0;
 let score = 0;
-let intervalTime = 800;
+let intervalTime = 500;
 let speed = 0.9;
 let timerid = 0;
 
@@ -19,7 +19,7 @@ function start () {
     score = 0
     scoreDisplay.textContent = score
     direction = 1
-    intervalTime = 800
+    intervalTime = 500
     apple()
     currentsnake.forEach(indexx => squares[indexx].classList.add('snake'))
     timerid = setInterval(move, intervalTime)
