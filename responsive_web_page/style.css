@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 700;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+footer{
+    background: pink;
+    color: white;
+    text-align: center;
+    padding: 3em 0;
+}
+/*------- Nav bar styling start--------*/
+.container {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-family: 'lora', sans-serif;
+    color: #143774;
+    margin: 0;
+}
+.sub {
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #1792d2;
+    font-size: .75rem;
+}
+header {
+    margin: 0;
+    text-align: center;
+    background: #f8f8f8;
+    padding: 2em 0;
+}
+nav ul {
+    margin: 20px 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin-left: 2em;
+}
+nav a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+    padding: .25em;
+}
+nav a:hover,
+nav a:focus{
+    color: #1792d2;
+}
+.current-page {
+    border-bottom: 1px solid #707070;
+}
+@media (max-width: 815px) {
+    .d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin: .5em 0;
+    }
+}
+/*------- Nav bar styling end--------*/
+.article-image {
+    height: 400px;
+}
+h1, h2, h3 {
+    font-family: 'ubuntu';
+    font-weight: 400;
+}
+main {
+    width: 75%;
+}
+aside {
+    width: 20%;
+}
+.article-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #143774;
+} 
+.article-link:hover, .article-link:focus {
+    text-decoration: underline;
+    color: red;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar-widget {
+    border: 20px solid grey;
+    margin-bottom: 1em;
+    padding: 2em;
+}
+
