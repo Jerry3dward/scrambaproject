@@ -1,0 +1,14 @@
+[
+    {
+    "name": "jerry",
+    "age": 25,
+    "birthplace": "japan",  
+    "hobbies": ["whatever", "bleh", "meh"]
+    },
+    {
+    "name": "jerry",
+    "age": 25,
+    "birthplace": "japan",  
+    "hobbies": ["csafew", "asdfa", "yhedb"]
+    }
+]
