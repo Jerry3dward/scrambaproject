@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url('table.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'ubuntu';
+    height: 100vh;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: yellow;
+}
+button {
+    background-color: #fff100;
+    cursor: pointer;
+    border: none;
+}
+button#click {
+    align-self: flex-start;
+    padding: 5px;
+}
+button.draw {
+    font-size: 1.5em;
+    padding: 10px;
+    align-self: stretch;
+
+}
+div.card-slot {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 120px;
+    width: calc(120px * 5 / 7);
+}
+div.card-slot:nth-of-type(1) {
+    margin-bottom: 30px;
+}
+img.card {
+    width: 100%;
+}
+div.top {
+    display: flex;
+    align-self: flex-start;
+}
+div.top > p {
+    margin: 0;
+    margin-left: 30px;
+}
+button:disabled  {
+    cursor:not-allowed;
+}
+h2 {
+    margin: 10px;
+}
