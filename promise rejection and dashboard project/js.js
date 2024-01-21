@@ -27,12 +27,12 @@ fetch('https://api.coingecko.com/api/v3/coins/dogecoin')
         `
     })
     .catch(err => console.error(err))
-// function getCurrentTime() {
-//     const date = new Date();
-//     document.getElementById('time').textContent = date.toLocaleTimeString("en-us", {timestyle: "short"})    
-// }
+function getCurrentTime() {
+    const date = new Date();
+    document.getElementById('time').textContent = date.toLocaleTimeString("en-us", {timestyle: "short"})    
+}
 
-// setInterval(getCurrentTime, 1000)
+setInterval(getCurrentTime, 1000)
 
 navigator.geolocation.getCurrentPosition(position => {
     fetch(`https://apis.scrimba.com/openweathermap/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.latitude}`)
@@ -52,8 +52,12 @@ navigator.geolocation.getCurrentPosition(position => {
             <p>Description: ${data.weather[0].description}</p>
             <p>Wind Speed: ${data.wind.speed}</p>
             `
+            console.log('hi')
+            console.log(document.getElementById('img-weather'));
         })
         .catch(err => console.error(err))
 })
+
+
 
 
