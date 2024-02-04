@@ -43,14 +43,13 @@ div#crypto-top > p {
 div#crypto-top > span {
     margin-left: 10px;
 }
-/* div#weather {
+div#weather {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-/* div#weather > img {
+    flex-direction: inherit;
+}
+div#weather > img {
     width: 100px;
-} */
+}
 
 
 

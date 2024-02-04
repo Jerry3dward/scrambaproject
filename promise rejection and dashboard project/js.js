@@ -45,15 +45,13 @@ navigator.geolocation.getCurrentPosition(position => {
         .then (data => {
             console.log(data)
             const iconUrl = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
-            document.getElementById('weather').innerHTML = `
-            <img src= ${iconUrl} />
+            document.getElementById('img-weather').innerHTML = `<img src= ${iconUrl} />`
+            document.getElementById('weatherDetails').innerHTML = `
             <p>Temp: ${Math.round(data.main.temp)}°</p>
             <p class="weather-city">City: ${data.name}</p>
             <p>Description: ${data.weather[0].description}</p>
             <p>Wind Speed: ${data.wind.speed}</p>
             `
-            console.log('hi')
-            console.log(document.getElementById('img-weather'));
         })
         .catch(err => console.error(err))
 })

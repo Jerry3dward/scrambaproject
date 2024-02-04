@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
     "name": "dashboard",
-    "version": "1.0",
+    "version": "1.1",
     "description": "practice",
     "action": {
-        "default_icon": "HOUSE.png"
+        "default_icon": "house.png"
     },
     "chrome_url_overrides": {
         "new tab": "index.html"
